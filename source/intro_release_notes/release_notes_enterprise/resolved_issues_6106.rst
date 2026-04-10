@@ -12,6 +12,7 @@ The following new features have been backported to 6.10.6:
 The following issues has been solved in 6.10.6:
 
 - `Fix [FSunstone] CPU_MODEL removed on VM configuration update <https://github.com/OpenNebula/one/issues/6860>`__.
+- `Fix onevntemplate instantiate to apply shared name, vlan_id, and vn_mad options independently to the vNet and address range <https://github.com/OpenNebula/one/issues/6>`__.
 
 
 Changes in Configuration Files
