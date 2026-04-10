@@ -13,6 +13,7 @@ The following issues has been solved in 6.10.6:
 
 - `Fix [FSunstone] CPU_MODEL removed on VM configuration update <https://github.com/OpenNebula/one/issues/6860>`__.
 - `Fix onevntemplate instantiate to apply shared name, vlan_id, and vn_mad options independently to the vNet and address range <https://github.com/OpenNebula/one/issues/6>`__.
+- `Fix network lease leakage when VM deployment fails and is retried by the scheduler <https://github.com/OpenNebula/one/issues/7>`__.
 
 
 Changes in Configuration Files
